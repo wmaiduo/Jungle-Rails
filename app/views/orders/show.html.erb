@@ -4,7 +4,29 @@
     <h1>Order #<%= @order.id %></h1>
   </header>
 
+  <div class="panel panel-default items">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th colspan="2">Product</th>
+          <th>Unit Price</th>
+          <th>Purchased Quantity</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+      <% @order.line_items.each do |line_item| %>
+        <%= render 'line_item', product: line_item.product, quantity: line_item.quantity.to_i %>
+      <% end %>
+      </tbody>
+    </table>
+  </div>
+  <div>
+    <Strong>Total:</Strong>  $<%= number_with_delimiter(@order.total_cents.to_f / 100, :delimiter => ',') %>
+  </div>
+
   <div class="order-summary jumbotron">
+    <h5>Your email: <%= @order.email %>
     <h4>Thank you for your order!</h4>
   </div>
 
