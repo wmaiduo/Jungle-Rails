@@ -11,7 +11,7 @@
     <%= product.category.name %>
   </td>
   <td>
-    <%= product.price %>
+    $<%= number_with_delimiter(product.price, :delimiter => ',')  %>
   </td>
   <td>
     <%= product.quantity %>
