@@ -1,8 +1,11 @@
 class Admin::CategoriesController < ApplicationController
   http_basic_authenticate_with name: ENV['USERNAME'], password: ENV["PASSWORD"]
 
+  puts "----------" + Product.to_s
+
   def index
     @categories = Category.order(id: :DESC).all
+    @products = Product.order(id: :DESC).all
   end
 
   def new

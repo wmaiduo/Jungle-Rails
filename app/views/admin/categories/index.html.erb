@@ -13,14 +13,18 @@
     <table class="table table-bordered">
       <thead>
         <tr>
-          <th colspan="2">Category</th>
+          <th>Category</th>
+          <th>Number of Products of Category</th>
         </tr>
       </thead>
       <tbody>
         <%= render @categories %>
       </tbody>
+      <tbody>
+      </tbody>
     </table>
-
   </div>
+
+  <p> <%= @categories.count %></p>
 
 </section>
