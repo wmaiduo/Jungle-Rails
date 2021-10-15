@@ -1,6 +1,7 @@
 <section class="cart-show">
 
   <header class="page-header">
+    <p>Welcome <%= @current_user.first_name %> <%= @current_user.last_name %></p>
     <h1>My Cart</h1>
   </header>
   <% if !enhanced_cart.empty?() %>
