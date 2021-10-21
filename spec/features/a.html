@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jungle</title>
+    <link
+      rel="stylesheet"
+      media="all"
+      href="/assets/application-290fab440119dcadfc5cc14b2ca594d745cdf40b9dd172fcade21eedac282419.css"
+      data-turbolinks-track="true"
+    />
+    <script
+      src="/assets/application-d76d16978f72c070140c8edfafadddc01eed32329058078a5befa554897cac55.js"
+      data-turbolinks-track="true"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#navbar"
+            aria-expanded="false"
+            aria-controls="navbar"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Jungle</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li class="dropdown">
+              <a
+                href="#"
+                class="dropdown-toggle"
+                data-toggle="dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Categories
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="/categories/1">Apparel</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="/about">About Us</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/signup">Signup</a></li>
+            <li><a href="/login">Login</a></li>
+            <li class="dropdown">
+              <a
+                href="#"
+                class="dropdown-toggle"
+                data-toggle="dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <span class="text-danger"
+                  ><i class="fa fa-lock"></i> Admin</span
+                >
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="/admin">Dashboard</a></li>
+                <li><a href="/admin/products">Products</a></li>
+                <li><a href="/admin/categories">Categories</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="/cart">
+                <i class="fa fa-shopping-cart"></i> My Cart (0)
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container">
+      <section class="products-index">
+        <header class="page-header">
+          <h1>Products</h1>
+        </header>
+
+        <div class="products">
+          <article class="product">
+            <header>
+              <a href="/products/10">
+                <img
+                  alt="Yolo authentic vegan pug chia narwhal goth semiotics."
+                  src="/uploads/product/image/10/thumb_apparel1.jpg"
+                />
+                <h4>Yolo authentic vegan pug chia narwhal goth semiotics.</h4>
+              </a>
+            </header>
+            <p class="description">
+              Locavore pop-up banh mi lo-fi. Crucifix celiac irony 90's gentrify
+              viral ugh literally. Chillwave offal pork belly celiac semiotics
+              squid. Celiac blog lomo five dollar toast. Aesthetic vegan
+              chillwave typewriter butcher bespoke. Quinoa brooklyn selvage
+              cleanse chartreuse flexitarian.
+            </p>
+            <footer class="actions">
+              <form
+                class="button_to"
+                method="post"
+                action="/cart/add_item?product_id=10"
+              >
+                <button class="btn btn-primary" type="submit">
+                  <i class="fa fa-shopping-cart"></i> Add
+                </button>
+              </form>
+              <a class="btn btn-default pull-right" href="/products/10">
+                Details »
+              </a>
+            </footer>
+
+            <aside class="price">$64.99</aside>
+          </article>
+          <article class="product">
+            <header>
+              <a href="/products/9">
+                <img
+                  alt="Kitsch tilde photo booth ethical."
+                  src="/uploads/product/image/9/thumb_apparel1.jpg"
+                />
+                <h4>Kitsch tilde photo booth ethical.</h4>
+              </a>
+            </header>
+            <p class="description">
+              Drinking bitters small batch chicharrones wayfarers godard.
+              Portland chillwave meh synth retro. Readymade offal single-origin
+              coffee. Beard cardigan lomo fap offal. Vinyl kitsch hella
+              chartreuse vice banjo.
+            </p>
+            <footer class="actions">
+              <form
+                class="button_to"
+                method="post"
+                action="/cart/add_item?product_id=9"
+              >
+                <button class="btn btn-primary" type="submit">
+                  <i class="fa fa-shopping-cart"></i> Add
+                </button>
+              </form>
+              <a class="btn btn-default pull-right" href="/products/9">
+                Details »
+              </a>
+            </footer>
+
+            <aside class="price">$64.99</aside>
+          </article>
+          <article class="product">
+            <header>
+              <a href="/products/8">
+                <img
+                  alt="Yr kickstarter retro before they sold out hashtag."
+                  src="/uploads/product/image/8/thumb_apparel1.jpg"
+                />
+                <h4>Yr kickstarter retro before they sold out hashtag.</h4>
+              </a>
+            </header>
+            <p class="description">
+              Beard asymmetrical small batch vegan loko actually brunch
+              everyday. Trust fund +1 five dollar toast ugh blue bottle chia.
+              Brooklyn mlkshk taxidermy heirloom leggings pabst. Wolf whatever
+              blog tote bag actually next level flexitarian. Beard migas
+              pour-over farm-to-table selvage. Wolf polaroid flannel bitters
+              cold-pressed shoreditch.
+            </p>
+            <footer class="actions">
+              <form
+                class="button_to"
+                method="post"
+                action="/cart/add_item?product_id=8"
+              >
+                <button class="btn btn-primary" type="submit">
+                  <i class="fa fa-shopping-cart"></i> Add
+                </button>
+              </form>
+              <a class="btn btn-default pull-right" href="/products/8">
+                Details »
+              </a>
+            </footer>
+
+            <aside class="price">$64.99</aside>
+          </article>
+          <article class="product">
+            <header>
+              <a href="/products/7">
+                <img
+                  alt="Wes anderson authentic squid pabst humblebrag vhs pop-up."
+                  src="/uploads/product/image/7/thumb_apparel1.jpg"
+                />
+                <h4>
+                  Wes anderson authentic squid pabst humblebrag vhs pop-up.
+                </h4>
+              </a>
+            </header>
+            <p class="description">
+              Cronut put a bird on it bushwick. Umami whatever chia deep v offal
+              banh mi skateboard. Ugh 3 wolf moon humblebrag blue bottle offal
+              poutine schlitz. Small batch waistcoat ugh intelligentsia everyday
+              tattooed.
+            </p>
+            <footer class="actions">
+              <form
+                class="button_to"
+                method="post"
+                action="/cart/add_item?product_id=7"
+              >
+                <button class="btn btn-primary" type="submit">
+                  <i class="fa fa-shopping-cart"></i> Add
+                </button>
+              </form>
+              <a class="btn btn-default pull-right" href="/products/7">
+                Details »
+              </a>
+            </footer>
+
+            <aside class="price">$64.99</aside>
+          </article>
+          <article class="product">
+            <header>
+              <a href="/products/6">
+                <img
+                  alt="Poutine yr sustainable cardigan vinyl."
+                  src="/uploads/product/image/6/thumb_apparel1.jpg"
+                />
+                <h4>Poutine yr sustainable cardigan vinyl.</h4>
+              </a>
+            </header>
+            <p class="description">
+              Heirloom ethical iphone normcore irony sartorial tousled. Five
+              dollar toast offal pabst poutine. Tofu loko tousled 3 wolf moon.
+              Mumblecore microdosing trust fund skateboard swag wolf five dollar
+              toast. Health fap pitchfork selvage blue bottle. Lumbersexual
+              chillwave roof banjo direct trade bushwick vegan.
+            </p>
+            <footer class="actions">
+              <form
+                class="button_to"
+                method="post"
+                action="/cart/add_item?product_id=6"
+              >
+                <button class="btn btn-primary" type="submit">
+                  <i class="fa fa-shopping-cart"></i> Add
+                </button>
+              </form>
+              <a class="btn btn-default pull-right" href="/products/6">
+                Details »
+              </a>
+            </footer>
+
+            <aside class="price">$64.99</aside>
+          </article>
+          <article class="product">
+            <header>
+              <a href="/products/5">
+                <img
+                  alt="Cardigan yr next level."
+                  src="/uploads/product/image/5/thumb_apparel1.jpg"
+                />
+                <h4>Cardigan yr next level.</h4>
+              </a>
+            </header>
+            <p class="description">
+              Franzen kinfolk chartreuse mustache cardigan intelligentsia. 90's
+              forage seitan bicycle rights try-hard. Vegan truffaut asymmetrical
+              franzen. Yolo hashtag lumbersexual art party. Listicle bitters
+              keffiyeh pickled skateboard cred kinfolk yr. Poutine farm-to-table
+              everyday carry listicle.
+            </p>
+            <footer class="actions">
+              <form
+                class="button_to"
+                method="post"
+                action="/cart/add_item?product_id=5"
+              >
+                <button class="btn btn-primary" type="submit">
+                  <i class="fa fa-shopping-cart"></i> Add
+                </button>
+              </form>
+              <a class="btn btn-default pull-right" href="/products/5">
+                Details »
+              </a>
+            </footer>
+
+            <aside class="price">$64.99</aside>
+          </article>
+          <article class="product">
+            <header>
+              <a href="/products/4">
+                <img
+                  alt="Pug skateboard deep v roof lumbersexual iphone brunch pork belly."
+                  src="/uploads/product/image/4/thumb_apparel1.jpg"
+                />
+                <h4>
+                  Pug skateboard deep v roof lumbersexual iphone brunch pork
+                  belly.
+                </h4>
+              </a>
+            </header>
+            <p class="description">
+              Fap sriracha wes anderson. Artisan xoxo single-origin coffee.
+              Master pour-over retro crucifix williamsburg. Echo biodiesel 90's
+              bespoke asymmetrical direct trade. Taxidermy bushwick health
+              flannel yuccie chartreuse. Farm-to-table seitan biodiesel
+              mumblecore celiac slow-carb deep v.
+            </p>
+            <footer class="actions">
+              <form
+                class="button_to"
+                method="post"
+                action="/cart/add_item?product_id=4"
+              >
+                <button class="btn btn-primary" type="submit">
+                  <i class="fa fa-shopping-cart"></i> Add
+                </button>
+              </form>
+              <a class="btn btn-default pull-right" href="/products/4">
+                Details »
+              </a>
+            </footer>
+
+            <aside class="price">$64.99</aside>
+          </article>
+          <article class="product">
+            <header>
+              <a href="/products/3">
+                <img
+                  alt="Authentic cornhole raw denim yr selfies scenester fingerstache art party."
+                  src="/uploads/product/image/3/thumb_apparel1.jpg"
+                />
+                <h4>
+                  Authentic cornhole raw denim yr selfies scenester fingerstache
+                  art party.
+                </h4>
+              </a>
+            </header>
+            <p class="description">
+              You probably haven't heard of them williamsburg chicharrones
+              brooklyn. Mumblecore aesthetic hella. Tumblr shoreditch raw denim
+              iphone portland stumptown. Try-hard tattooed typewriter everyday
+              lomo forage art party kombucha. You probably haven't heard of them
+              narwhal authentic mustache scenester semiotics.
+            </p>
+            <footer class="actions">
+              <form
+                class="button_to"
+                method="post"
+                action="/cart/add_item?product_id=3"
+              >
+                <button class="btn btn-primary" type="submit">
+                  <i class="fa fa-shopping-cart"></i> Add
+                </button>
+              </form>
+              <a class="btn btn-default pull-right" href="/products/3">
+                Details »
+              </a>
+            </footer>
+
+            <aside class="price">$64.99</aside>
+          </article>
+          <article class="product">
+            <header>
+              <a href="/products/2">
+                <img
+                  alt="3 wolf moon drinking chartreuse."
+                  src="/uploads/product/image/2/thumb_apparel1.jpg"
+                />
+                <h4>3 wolf moon drinking chartreuse.</h4>
+              </a>
+            </header>
+            <p class="description">
+              Blog vinegar iphone cliche craft beer ennui. Pinterest +1 austin
+              chia twee. Meh leggings farm-to-table mumblecore try-hard celiac
+              xoxo pickled. Cornhole biodiesel occupy small batch kinfolk iphone
+              before they sold out.
+            </p>
+            <footer class="actions">
+              <form
+                class="button_to"
+                method="post"
+                action="/cart/add_item?product_id=2"
+              >
+                <button class="btn btn-primary" type="submit">
+                  <i class="fa fa-shopping-cart"></i> Add
+                </button>
+              </form>
+              <a class="btn btn-default pull-right" href="/products/2">
+                Details »
+              </a>
+            </footer>
+
+            <aside class="price">$64.99</aside>
+          </article>
+          <article class="product">
+            <header>
+              <a href="/products/1">
+                <img
+                  alt="Meh you probably haven't heard of them wes anderson five dollar toast put a bird on it messenger bag bushwick."
+                  src="/uploads/product/image/1/thumb_apparel1.jpg"
+                />
+                <h4>
+                  Meh you probably haven't heard of them wes anderson five
+                  dollar toast put a bird on it messenger bag bushwick.
+                </h4>
+              </a>
+            </header>
+            <p class="description">
+              Ramps beard artisan wayfarers. Chia yr mustache viral poutine
+              cliche taxidermy. Distillery intelligentsia loko craft beer.
+              Mlkshk photo booth post-ironic farm-to-table vinegar leggings park
+              ennui. Schlitz knausgaard flexitarian viral mumblecore before they
+              sold out. Beard fingerstache fanny pack waistcoat.
+            </p>
+            <footer class="actions">
+              <form
+                class="button_to"
+                method="post"
+                action="/cart/add_item?product_id=1"
+              >
+                <button class="btn btn-primary" type="submit">
+                  <i class="fa fa-shopping-cart"></i> Add
+                </button>
+              </form>
+              <a class="btn btn-default pull-right" href="/products/1">
+                Details »
+              </a>
+            </footer>
+
+            <aside class="price">$64.99</aside>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
